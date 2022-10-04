@@ -10,7 +10,7 @@ public class DBconnection {
     private static Connection connection;
     private static final String password = "java";
     private static final String username = "java";
-    private static final String database = "jdbc:derby://localhost:1527/CourseSchedulerDBOmarRadyohr5003";
+    private static final String database = "jdbc:derby://localhost:1527/xxxxxxx"; // PASTE YOUR DB NAME WHERE THE Xs are
     
     public static Connection getConnection(){
         if (connection == null){
